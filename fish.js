@@ -5,7 +5,7 @@ function submit() {
     var pasteData = document.getElementById("pasteBox").value;
     document.getElementById("pasteBox").value = ""; // Empty the text box after submitting
     if (pasteData == "") {
-        alert("U troll. U cant haves empty loll")
+        alert("The paste cannot be empty, please try again.")
         return;
     }
 
