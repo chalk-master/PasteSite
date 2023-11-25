@@ -2,6 +2,7 @@ body {
     font-family:sans-serif;
     height:100%;
     margin:0;
+    word-wrap:break-word;
 }
 
 header {
@@ -38,6 +39,26 @@ footer {
     min-height:100vh;
 }
 
+.inputAndSubmit {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:fit-content
+}
+
+#pasteBox {
+    left:0;
+	width:500px;
+	height:100px;
+    resize:none;
+}
+
+#submit {
+    width:100px;
+    align-self:center;
+    margin-top:10px;
+}
+
 button {
     background-color:#adff2f;
     border:none;
@@ -50,6 +71,6 @@ button:hover {
     background-color:#c7ec8f;
 }
 
-input {
+textarea {
     background-color:lightgray;
 }

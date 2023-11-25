@@ -14,9 +14,10 @@
 
             <main>
                 <h2>Create new paste:</h2>
-                <input type="text" id="pasteBox" placeholder="Paste your content here">
-                <button type="submit" onclick="submit()">Submit</button>
-
+                <div class="inputAndSubmit">
+                    <textarea id="pasteBox" placeholder="Paste your content here"></textarea>
+                    <br><button id="submit" type="submit" onclick="submit()">Submit</button>
+                </div>
                 <h2>Recent pastes:</h2>
                 <p id="noPastes"><em>No pastes here...</em></p>
                 <div id="pastes"></div>
